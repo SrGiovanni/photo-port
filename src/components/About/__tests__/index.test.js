@@ -5,18 +5,17 @@ import About from '..';
 
 afterEach(cleanup);
 
+
+//renders About test
 describe('About component', () => {
-    //renders About test
-    describe('About component', () => {
-        // First Test
-        it('renders', () => {
-            render(<About />);
-        });
-        // Second Test
-        it('matches snapshot DOM node structure', () => {
-            // render About
-            const { asFragment } = render(<About />);
-            expect(asFragment()).toMatchSnapshot();
-        });
-      })
-});
+    // First Test
+    it('renders', () => {
+        render(<About />);
+    });
+    // Second Test
+    it('matches snapshot DOM node structure', () => {
+        // render About
+        const { asFragment } = render(<About />);
+        expect(asFragment()).toMatchSnapshot();
+    });
+    })
