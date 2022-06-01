@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Photo Port
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Provide a profile page for a local photographer
+
+## Deployed Site
+
+You can visit the live site at: http://SrGiovanni.github.io/photo-port
+
+## License
+
+Copyright (c) 2022.  
+Licensed under the [MIT](https://mit-license.org/) license.
+
+## Technology Used
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
